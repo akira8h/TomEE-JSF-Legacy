@@ -1,14 +1,11 @@
 package org.superbiz.jsf;
 
 import jakarta.ejb.EJB;
-//import jakarta.ejb.Stateful;
 import jakarta.faces.bean.ManagedBean;
-import jakarta.faces.bean.SessionScoped;
+//import jakarta.faces.bean.SessionScoped;
 
-//@ManagedBean　指定しないと実行時エラー; @SessionScoped セッションスコープで計算ページに戻っても入力値が保持される [注意]アノーテーションと同じ行にコメントを書くと実行時エラー
 @ManagedBean
-@SessionScoped
-//@Stateful
+//@SessionScoped  //optional: retains result when back
 public class CalculatorBean {
     @EJB
     Calculator calculator;
