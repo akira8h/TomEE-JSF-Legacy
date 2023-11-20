@@ -1,8 +1,8 @@
 package org.superbiz.jsf;
 
 import jakarta.ejb.EJB;
-import jakarta.faces.bean.ManagedBean;
-//import jakarta.faces.bean.SessionScoped;
+import jakarta.faces.bean.ManagedBean;  //Deprecated
+//import jakarta.faces.bean.SessionScoped; //Deprecated use "jakarta.enterprise.context.SessionScoped"
 
 @ManagedBean
 //@SessionScoped  //optional: retains result when back
