@@ -1,2 +1,2 @@
-TomEE JSF のサンプル
-※faces-config.xml　で画面遷移を定義する古いタイプ
+## TomEE JSF のサンプル
+### ※faces-config.xml　で画面遷移を定義する古いタイプ
